@@ -1,0 +1,25 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* リストスタイル */
+.sq { list-style-type: square }      /* 四角 */
+.nn { list-style-type: none }        /* マークなし */
+
+#sidebar .widgettitle {
+  font-size: 29px;
+}
+
+.navbar-top{
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+footer {
+  background-color:white;
+  color: black;
+}
