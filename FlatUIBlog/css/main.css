@@ -19,7 +19,53 @@
   position: absolute;
 }
 
+.nav-menu-border{
+  margin-top: -20px;
+}
+
 footer {
   background-color:white;
   color: black;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    color: #5E5E5E;
+}
+ul#main-nav li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    width: 180px;
+    display: block;
+}
+ul#main-nav li a{
+    color: #5E5E5E;
+    font-size: 19px;
+}
+ul#main-nav li a:hover{
+    color: #1ABC9C;
+}
+ul.sub-menu{
+        display: none;
+        position: absolute;
+        margin-left: -5px;
+        padding: 0;
+        z-index: 1030;
+        color: #fff;
+}
+ul.sub-menu li a{
+    padding: 5px 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: #fff;
+    background: #E5E9EA;
+}
+
+ul.sub-menu li a:hover{
+    color: #fff;
 }
