@@ -49,14 +49,22 @@
           </div><!--/.navbar-collapse -->
         </div>
       </nav>
-      <div class="navbar-collapse collapse">
-        <?php wp_nav_menu( array(
-                'theme_location'=>'mainmenu',
-                'container'     =>'',
-                'container_class' =>'nav-collapse collapse',
-                'menu_class'    =>'nav',
-                'items_wrap'    =>'<ul class="nn" id="main-nav">%3$s</ul>'));
-        ?>
+      <div class="container">
+        <div class="navbar-collapse collapse">
+          <?php wp_nav_menu( array(
+                  'theme_location'=>'mainmenu',
+                  'container'     =>'',
+                  'container_class' =>'nav-collapse collapse',
+                  'menu_class'    =>'nav',
+                  'items_wrap'    =>'<ul class="nn" id="main-nav">%3$s</ul>'));
+          ?>
+          <!-- <div class="navbar-right">
+            <div class="btn-group">
+                    <a href="#fakelink"><img class="navIcons" src="<?php echo get_template_directory_uri(); ?>/img/icons/png/twitter.png"></span></a>
+                    <a href="#fakelink"><img class="navIcons" src="<?php echo get_template_directory_uri(); ?>/img/icons/png/github.png"></span></a>
+            </div>
+          </div> -->
+        </div>
       </div>
 
       <div class="navbar-collapse collapse nav-menu-border">

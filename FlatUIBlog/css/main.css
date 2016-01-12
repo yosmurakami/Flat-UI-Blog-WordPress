@@ -69,3 +69,8 @@ ul.sub-menu li a{
 ul.sub-menu li a:hover{
     color: #fff;
 }
+
+a img.navIcons{
+  width: 45px;
+  height: 45px;
+}
