@@ -1,11 +1,14 @@
+</div> <!-- /container -->
 <footer>
-  <p>&copy; <?php bloginfo('name'); ?></p>
+  <div class="row">
+    <div class="footer-copy-right col-md-1">
+    </div>
+    <div class="footer-copy-right col-md-11">
+      <p>&copy; <?php bloginfo('name'); ?></p>
+    </div>
+  </div>
 </footer>
-</div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-  <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/bootstrap.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>

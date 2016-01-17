@@ -5,11 +5,87 @@
    ========================================================================== */
 
 /* リストスタイル */
-.sq { list-style-type: square }      /* 四角 */
-.nn { list-style-type: none }        /* マークなし */
+.sq { list-style-type: square } /* 四角 */
+.nn,.nn ul  { list-style-type: none }  /* マークなし */
 
-#sidebar .widgettitle {
-  font-size: 29px;
+a{
+  color: #E56C6C;
+}
+
+a:hover{
+  color: #E04E4E;
+}
+
+a img.navIcons{
+  width: 45px;
+  height: 45px;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+}
+
+a img.navIcons:hover{
+  transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+}
+
+.container .myMenu{
+  padding-top: 10px;
+}
+
+a.content-title{
+  color: #E56C6C;
+}
+
+a.content-title:hover{
+  color: #E04E4E;
+}
+
+.content-main-text{
+  padding-top: 15px;
+}
+
+.content-thumbnail img{
+  border: 5px solid #CCC;
+}
+
+.content-thumbnail img:hover{
+  border: 5px solid #E56C6C;
+}
+
+footer {
+  background-color:white;
+  color: #261e1c;
+}
+
+footer-copy-rigth{
+  padding: 20px;
+}
+
+hr.under-content-title{
+	background-color: #fff;
+	border-top: 4px dotted #CCC;
+}
+
+.nav-menu-border{
+  margin-top: -20px;
+}
+
+.navbar{
+  background-color: #CCC;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.navbar-default a.navbar-brand:hover{
+  color: #261e1c;
+}
+
+.navbar-default .navbar-form .form-control:focus,
+.navbar-default .navbar-form .select2-search input[type="text"]:focus{
+  box-shadow: none;
+  border-color: none;
 }
 
 .navbar-top{
@@ -17,9 +93,66 @@
   right: 0px;
   left: 0px;
   position: absolute;
+  z-index: 1;
 }
 
-footer {
-  background-color:white;
-  color: black;
+.post-meta{
+  font-size: 15px;
+}
+
+#sidebar .widgettitle {
+  border-radius: 4px 22px 22px 4px;
+  background-color: #CCC;
+  padding: 8px 0px 8px 15px;
+  font-size: 25px;
+  color: white;
+}
+
+#sidebar .widgettitle:hover {
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    color: #5E5E5E;
+}
+
+ul#main-nav li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    width: 180px;
+    display: block;
+}
+
+ul#main-nav li a{
+    color: dimgray;
+    font-size: 19px;
+}
+
+ul#main-nav li a:hover{
+}
+
+ul.sub-menu{
+        display: none;
+        position: absolute;
+        margin-left: -5px;
+        padding: 0;
+        z-index: 1030;
+        color: white;
+}
+
+ul.sub-menu li a{
+    padding: 5px 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+    display: block;
+    color: white;
+    background: #E56C6C;
+}
+
+ul.sub-menu li a:hover{
+    color: white;
 }
