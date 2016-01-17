@@ -60,4 +60,12 @@ class MyWidgetItem extends WP_Widget {
 }
 add_action('widgets_init', create_function('', 'return register_widget("MyWidgetItem");'));
 
+// 日付、カテゴリ、タグを出力する
+function getArticleMetaData(){
+	?><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>　<?php the_time('Y/m/d'); ?>　
+	<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>　<?php the_category(', '); ?>　
+	<span class="glyphicon glyphicon-tags" aria-hidden="true"></span>　<?php the_tags('',', '); ?>　
+	<?php
+}
+
 ?>
