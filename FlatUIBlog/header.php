@@ -50,7 +50,8 @@
         </div>
       </nav>
       <div class="container">
-        <div class="navbar-collapse collapse">
+        <!--
+        <div class="navbar-collapse collapse myMenu">
           <?php wp_nav_menu( array(
                   'theme_location'=>'mainmenu',
                   'container'     =>'',
@@ -58,6 +59,7 @@
                   'menu_class'    =>'nav',
                   'items_wrap'    =>'<ul class="nn" id="main-nav">%3$s</ul>'));
           ?>
+        -->
           <!-- <div class="navbar-right">
             <div class="btn-group">
                     <a href="#fakelink"><img class="navIcons" src="<?php echo get_template_directory_uri(); ?>/img/icons/png/twitter.png"></span></a>

@@ -11,16 +11,16 @@ $(function(){
     });
     */
     $("ul#main-nav li").hover(function(){
+      $(this).children("a").css("color","#E56C6C");
+      $(this).children(".sub-menu li a").css("color","white");
       $("> ul:not(:animated)" , this).animate({
         height : "toggle",
         opacity : "toggle"
       }, 450 );
-      $(this).children("a").css("color","#1ABC9C");
-      $(this).children(".sub-menu li a").css("color","#1ABC9C");
     },
 
     function(){
       $("> ul" , this).fadeOut("slow");
-      $("> a" , this).css("color","#5E5E5E");
+      //$("> a" , this).css("color","white");
     });
 });
