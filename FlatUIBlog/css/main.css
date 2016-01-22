@@ -40,15 +40,19 @@ a.content-title:hover{
   color: #E04E4E;
 }
 
+body{
+  font-size: 16px;
+}
+
 .content-main-text{
   padding-top: 15px;
 }
 
-.content-thumbnail img{
+img,.content-thumbnail img{
   border: 5px solid #CCC;
 }
 
-.content-thumbnail img:hover{
+img:hover,.content-thumbnail img:hover{
   border: 5px solid #E56C6C;
 }
 
@@ -94,6 +98,10 @@ hr.under-content-title{
   left: 0px;
   position: absolute;
   z-index: 1;
+}
+
+p{
+  font-size: 16px;
 }
 
 .post-meta{
