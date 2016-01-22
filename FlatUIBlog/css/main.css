@@ -75,11 +75,11 @@ hr.under-content-title{
 }
 
 .navbar-default .navbar-brand{
-  color: white;
+  color: #E56C6C;
 }
 
 .navbar-default a.navbar-brand:hover{
-  color: #261e1c;
+  color: white;
 }
 
 .navbar-default .navbar-form .form-control:focus,
@@ -105,7 +105,7 @@ hr.under-content-title{
   background-color: #CCC;
   padding: 8px 0px 8px 15px;
   font-size: 25px;
-  color: white;
+  color: #E56C6C;
 }
 
 #sidebar .widgettitle:hover {
