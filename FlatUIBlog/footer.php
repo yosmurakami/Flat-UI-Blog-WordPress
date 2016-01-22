@@ -3,8 +3,11 @@
   <div class="row">
     <div class="footer-copy-right col-md-1">
     </div>
-    <div class="footer-copy-right col-md-11">
+    <div class="footer-copy-right col-md-8">
       <p>&copy; <?php bloginfo('name'); ?></p>
+    </div>
+    <div class="footer-copy-right col-md-3">
+      <p>Created by yosmurakami.</p>
     </div>
   </div>
 </footer>
