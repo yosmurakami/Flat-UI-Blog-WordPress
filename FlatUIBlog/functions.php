@@ -4,6 +4,9 @@ register_sidebar();
 
 register_nav_menu('mainmenu', 'メインメニュー');
 
+// アイキャッチ画像設定を追加
+add_theme_support('post-thumbnails');
+
 /* add by http://kachibito.net/wordpress/custom/how-to-add-your-widget.html */
 class MyWidgetItem extends WP_Widget {
 		function MyWidgetItem() {
