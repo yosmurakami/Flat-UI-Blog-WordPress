@@ -71,6 +71,10 @@ hr.under-content-title{
 	border-top: 4px dotted #CCC;
 }
 
+.more-link{
+  float:right;
+}
+
 .nav-menu-border{
   margin-top: -20px;
 }

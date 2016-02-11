@@ -4,8 +4,10 @@ register_sidebar();
 
 register_nav_menu('mainmenu', 'メインメニュー');
 
-// アイキャッチ画像設定を追加
-add_theme_support('post-thumbnails');
+function new_excerpt_more($more) {
+	return '  . . .';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 /* add by http://kachibito.net/wordpress/custom/how-to-add-your-widget.html */
 class MyWidgetItem extends WP_Widget {
