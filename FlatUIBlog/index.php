@@ -29,7 +29,6 @@
          <div class="col-sm-4">
            <?php get_sidebar(); ?>
          </div>
-   </div>
-
+       </div>
    <hr>
 <?php get_footer(); ?>

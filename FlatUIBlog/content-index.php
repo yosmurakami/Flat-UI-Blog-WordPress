@@ -12,6 +12,7 @@
         </div>
         <div class="content-main-text">
             <?php the_excerpt(); ?>
+            <a class="more-link" href="<?php the_permaLink(); ?>">続きを読む <span class="fui-arrow-right"></span></a>
         </div>
     </div>
 </div>

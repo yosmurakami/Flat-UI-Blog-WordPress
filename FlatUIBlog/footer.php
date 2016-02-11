@@ -1,16 +1,11 @@
-</div> <!-- /container -->
 <footer>
   <div class="row">
-    <div class="footer-copy-right col-md-1">
-    </div>
-    <div class="footer-copy-right col-md-8">
+    <div class="footer-copy-right col-md-2">
       <p>&copy; <?php bloginfo('name'); ?></p>
-    </div>
-    <div class="footer-copy-right col-md-3">
-      <p>Created by yosmurakami.</p>
     </div>
   </div>
 </footer>
+</div> <!-- /container -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
